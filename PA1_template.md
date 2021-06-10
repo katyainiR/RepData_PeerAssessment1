@@ -3,8 +3,11 @@ title: "Reproducible Research: Peer Assessment 1"
 author: "Katyaini Ranjan"
 date: "09/06/2021"
 output: 
-      html_document:
-                    keep_md: yes
+      prettydoc::html_pretty:
+                            theme: Architect
+                            highlight: github
+                            keep_md: yes
+                    
 ---
 
 <br>
